@@ -76,7 +76,7 @@ public class FirebaseProjectConfigurations : MonoBehaviour
     private const string project_id_debug = "<DEBUG_PROJECT_ID>";
     private const string project_id_emulator = "dzgamesdebugproject";
 
-    private static string realtime_database_root_path_release = $"https://<RELEASE_DATABASE_NAME>.firebaseio.com/{FIREBASE_GAME_NAME}";
+    private static string realtime_database_root_path_release = "https://<RELEASE_DATABASE_NAME>.firebaseio.com/" + {FIREBASE_GAME_NAME} + "";
     private static string realtime_database_root_path_debug = "https://<DEBUG_DATABASE_NAME>.firebaseio.com/" + FIREBASE_GAME_NAME;
     private static string realtime_database_root_path_emulator = "http://localhost:9000/" + FIREBASE_GAME_NAME;
 
