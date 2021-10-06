@@ -18,6 +18,7 @@ public class FirebaseProjectConfigurations : MonoBehaviour
     public string NextSceneToLoad;
 
     public static string FIREBASE_GAME_NAME = "YOUR_GAME_NAME";
+    public static string temp_field = "temp_field";
 
     public static ProjectBuildType PROJECT_BUILD { get => projectBuild; }
     public static bool Initialized { get => initialized; }
